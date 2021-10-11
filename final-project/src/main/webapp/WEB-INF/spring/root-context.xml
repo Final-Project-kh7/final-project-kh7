@@ -27,16 +27,16 @@
 	-->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.OracleDriver"></property>
-		<property name="url" value="jdbc:oracle:thin:@www.sysout.co.kr:1521:xe"></property>
-		<property name="username" value="kh7e"></property>
-		<property name="password" value="kh7e"></property>
+		<property name="url" value="jdbc:oracle:thin:@oracle121v1.cvtpkppvjqhm.ap-northeast-2.rds.amazonaws.com:1521:ORCL"></property>
+		<property name="username" value="awsadmin"></property>
+		<property name="password" value="awsadmin"></property>
 	</bean>
 
 	<bean id="dbcpSource" class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="driverClassName" value="oracle.jdbc.OracleDriver"></property>
-		<property name="url" value="jdbc:oracle:thin:@www.sysout.co.kr:1521:xe"></property>
-		<property name="username" value="kh7e"></property>
-		<property name="password" value="kh7e"></property>
+		<property name="url" value="jdbc:oracle:thin:@oracle121v1.cvtpkppvjqhm.ap-northeast-2.rds.amazonaws.com:1521:ORCL"></property>
+		<property name="username" value="awsadmin"></property>
+		<property name="password" value="awsadmin"></property>
 
 		<property name="maxTotal" value="20"></property>
 		<property name="maxIdle" value="10"></property>
